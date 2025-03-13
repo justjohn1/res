@@ -1,5 +1,4 @@
 # Ignore authentication-related files
-b/
 b_data/
 
 # Ignore compiled Python files & cache
