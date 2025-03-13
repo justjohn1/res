@@ -1,0 +1,21 @@
+# Ignore authentication-related files
+b/
+b_data/
+
+# Ignore compiled Python files & cache
+__pycache__/
+*.pyc
+*.pyo
+*.log
+
+# Ignore Streamlit cache & settings
+.streamlit/
+*.toml
+
+# Ignore local system files
+.DS_Store
+*.swp
+
+# Ignore virtual environment (if used)
+.venv/
+env/
