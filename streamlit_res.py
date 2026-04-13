@@ -5,7 +5,6 @@ from forms.contact import show_contact_form
 from b.b_manager import enforce_auth
 st.set_option('client.showErrorDetails', False)
 
-
 # Call this function at the start of your app
 enforce_auth()
 
