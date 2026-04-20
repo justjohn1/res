@@ -2,11 +2,11 @@
 import streamlit as st
 import os
 from forms.contact import show_contact_form
-from b.b_manager import enforce_auth
+#from b.b_manager import enforce_auth
 st.set_option('client.showErrorDetails', False)
 
 # Call this function at the start of your app
-enforce_auth()
+#enforce_auth()
 
 # ✅ Move this to the VERY FIRST Streamlit command
 st.set_page_config(page_title="Your Portfolio", layout="wide")

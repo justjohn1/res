@@ -47,6 +47,25 @@ st.markdown('<div style="margin-bottom: 5px;"><strong>Bachelors of Science</stro
 # --- WORK EXPERIENCE ---
 st.markdown('## Work Experience', unsafe_allow_html=True)
 
+st.markdown('<div style="margin-bottom: 5px;"><strong>Lead Cyber Security Analyst/Advanced Analysis Lead - Evolver Inc/U.S Dept of Education</strong></div>', unsafe_allow_html=True)
+# Description bullet points
+description_points_new = [
+    "Automated Splunk hunting queries with encoded search URLs across multi-platform telemetry (Akamai, AWS, Palo Alto, Zscaler, CyberArk, DNS), reducing investigation kickoff time by 60-80%",
+    "Engineered Python-based SOC rapid response platform automating big data handling, threat correlation, and enrichment workflows, creating scalable incident response capability processing >45 alerts daily",
+    "Executed proactive IOC hunts across EDR, identity, network, and cloud logs using Trellix, Splunk SPL, and Python, developing automated threat-hunting scripts for CISA notifications that reduced query assembly time down to 1 minute",
+    "Performed high-fidelity forensics correlating process ancestry, command-line telemetry, DLL loads, and network flows across Windows, Linux, and cloud platforms to validate threats and accelerate incident response",
+    "Developed a re-playable prompt incorporating supporting files crafting a customized matrix for >40 business systems"
+]
+# Create HTML list items
+list_items = "".join([f"<li>{point}</li>" for point in description_points_new])
+# Display the formatted list
+st.markdown(f'<div class="job-description"><ul>{list_items}</ul></div>', unsafe_allow_html=True)
+
+st.markdown('<div style="margin-bottom: 20px;"></div>', unsafe_allow_html=True)###line spacer x20
+
+
+
+
 st.markdown('<div style="margin-bottom: 5px;"><strong>Senior Security Analyst - IBM</strong></div>', unsafe_allow_html=True)
 # Description bullet points
 description_points = [
