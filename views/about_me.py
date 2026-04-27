@@ -50,11 +50,12 @@ st.markdown('## Work Experience', unsafe_allow_html=True)
 st.markdown('<div style="margin-bottom: 5px;"><strong>Lead Cyber Security Analyst/Advanced Analysis Lead - Evolver Inc/U.S Dept of Education</strong></div>', unsafe_allow_html=True)
 # Description bullet points
 description_points_new = [
-    "Automated Splunk hunting queries with encoded search URLs across multi-platform telemetry (Akamai, AWS, Palo Alto, Zscaler, CyberArk, DNS), reducing investigation kickoff time by 60-80%",
-    "Engineered Python-based SOC rapid response platform automating big data handling, threat correlation, and enrichment workflows, creating scalable incident response capability processing >45 alerts daily",
-    "Executed proactive IOC hunts across EDR, identity, network, and cloud logs using Trellix, Splunk SPL, and Python, developing automated threat-hunting scripts for CISA notifications that reduced query assembly time down to 1 minute",
-    "Performed high-fidelity forensics correlating process ancestry, command-line telemetry, DLL loads, and network flows across Windows, Linux, and cloud platforms to validate threats and accelerate incident response",
-    "Developed a re-playable prompt incorporating supporting files crafting a customized matrix for >40 business systems"
+    "Executed proactive threat hunts based on emerging malware campaigns, CISA advisories, and CVE notifications across 43 Department of Education servicers, developing custom Splunk queries parsing filenames, domains, IPs, URL paths, and web error codes to identify, confirm, or rule out adversary presence, coordinating ISP-level or on-premises Palo Alto firewall blocks",
+    "Led advanced malware campaign investigations using Windows event code analysis to detect custom service installations and anomalous file execution patterns, identifying and containing NBLock, AZORult, and multi-family threat actor IOCs through correlation of Akamai alerts, EDR telemetry, and network logs",
+    "Automated Splunk hunting queries with encoded search URLs and multi-line IP/hostname parsing across multi-platform telemetry (Akamai, AWS CloudTrail/CloudWatch/VPC Flow, Palo Alto, Zscaler ZPA, CyberArk, DNS/HTTP stream), reducing investigation kickoff time by 60-80% and eliminating manual query assembly errors during Priority-1 incidents",
+    "Engineered Python-based SOC rapid response platform automating big data handling, threat correlation, and enrichment workflows across heterogeneous telemetry sources, creating scalable incident response capability processing >45 alerts daily with automated pivoting and session reconstruction",
+    "Performed high-fidelity forensics correlating process ancestry, command-line telemetry, DLL loads, and network flows across Windows, Linux, and cloud platforms to validate threats, accelerating incident response through automated artifact collection and parallel analysis workflows",
+    "Developed re-playable AI prompt framework incorporating supporting files and technical specifications to produce customized OMB M-21-31 compliance matrices for 40+ business systems, standardizing federal logging requirements across Zscaler ZVSE, Entrust HSM, and enterprise security appliances"
 ]
 # Create HTML list items
 list_items = "".join([f"<li>{point}</li>" for point in description_points_new])
